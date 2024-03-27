@@ -1,0 +1,85 @@
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+#seed-calc h4 {
+  text-align: center;
+  font-weight: 400;
+}
+
+#seed-calc h2 {
+  color: #2E3C7B;
+  text-align: center;
+}
+
+#seed-calc h2.descrip-tittle {
+  font-size: 30px;
+  background: #2E3C7B;
+  color: #fff;
+  padding: 10px;
+  margin: 0;
+}
+
+#seed-calc .descrip {
+  background: #E8E7E7;
+  margin: 0;
+  padding: 10px;
+  font-weight: 400;
+}
+
+#seed-calc label {
+  font-weight: 400;
+  padding: 10px 0;
+  font-size: 13px;
+  height: 40px;
+}
+
+#seed-calc button {
+  padding: 10px 20px;
+  margin-top: 42px;
+  background: #2D3C7B;
+  width: 100%;
+}
+
+#seed-calc button:hover {
+  background: #2D3C7B;
+}
+
+/*cahnge seed-calc-result input fiel color to show that its not editable*/
+#seed-calc-result input {
+  background: #213A7E1A;
+  color: #000;
+  font-weight: 400;
+  border: none;
+}
+
+/*design for mobile phones*/
+@media (max-width: 767px) {
+  #seed-calc .descrip {
+    font-size: 14px;
+  }
+
+  #seed-calc h2.descrip-tittle {
+    font-size: 19px;
+  }
+
+  #seed-calc h2 {
+    font-size: 20px;
+  }
+
+  #seed-calc h4 {
+    font-size: 15px;
+  }
+
+  #seed-calc label {
+    font-size: 14px;
+  }
+
+  #seed-calc button {
+    margin-top: 20px;
+  }
+}
