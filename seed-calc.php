@@ -4,7 +4,7 @@ Plugin Name: Balmasch Seed Calculator
 Plugin URI: https://balmasch.com/
 Description: Calcula la cantidad de semillas necesarias para sembrar un terreno
 Version: 1.0
-Author: William Wright
+Author: Alberto
 Author URI: http://rhodian.net/
 */
 //plugin code goes here
