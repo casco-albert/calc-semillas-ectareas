@@ -174,3 +174,5 @@ function seed_calc_enqueue_styles(){
   wp_enqueue_style('seed-calc', plugin_dir_url(__FILE__) . 'css/seed-calc.css', array(), '1.0', 'all');
 }
 add_action('wp_enqueue_scripts', 'seed_calc_enqueue_styles');
+
+?>
