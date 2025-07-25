@@ -1,11 +1,25 @@
 .show {
   display: block;
+  text-align: center;
 }
 
 .hide {
   display: none;
 }
-
+.row {
+  width: 100%;
+  height: auto;
+  display: flex;
+  text-align: center;
+}
+.col-md-4{
+  margin: 2px 2px;
+  background: #bfc5dd;
+  padding: 1px 2px 0 0;
+}
+.col-md-4 label{
+  padding-bottom: 0.3cm;
+}
 #seed-calc h4 {
   text-align: center;
   font-weight: 400;
@@ -39,14 +53,15 @@
 }
 
 #seed-calc button {
-  padding: 10px 20px;
-  margin-top: 42px;
+  padding: 10px 40px;
+  margin-top: 15px;
+  border: none;
   background: #2D3C7B;
-  width: 100%;
+  color:#fff;
 }
 
 #seed-calc button:hover {
-  background: #2D3C7B;
+  background: #6b7cc0;
 }
 
 /*cahnge seed-calc-result input fiel color to show that its not editable*/
@@ -81,5 +96,11 @@
 
   #seed-calc button {
     margin-top: 20px;
+  }
+  .row{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 10px;
+  margin-bottom: 10px;
   }
 }

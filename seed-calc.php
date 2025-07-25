@@ -37,14 +37,14 @@ function seed_calc_form_elementor_widget(){
           [
             'label' => 'Title',
             'type' => \Elementor\Controls_Manager::TEXT,
-            'default' => 'Calcular',
-            'placeholder' => 'Calcular',
+            'default' => 'Description',
+            'placeholder' => 'Description',
           ]
         );
         $this->add_control(
           'description1',
           [
-            'label' => 'Description',
+            'label' => 'Title',
             'type' => \Elementor\Controls_Manager::WYSIWYG,
             'default' => 'Description',
             'placeholder' => 'Description',
@@ -62,7 +62,7 @@ function seed_calc_form_elementor_widget(){
         $this->add_control(
           'description2',
           [
-            'label' => 'Description',
+            'label' => 'Title',
             'type' => \Elementor\Controls_Manager::WYSIWYG,
             'default' => 'Description',
             'placeholder' => 'Description',
@@ -75,9 +75,9 @@ function seed_calc_form_elementor_widget(){
         echo'
           <div id="seed-calc">
   <div id="seed-calc-form" class="show">
-    <div class="row">
+    <div class="rows">
       <div class="col-md-6">
-        <h2 class="descrip-tittle">' . $settings['title1'] . '</h2>
+        <h2 class="descrip-tittle">' . $settings['title1']. '</h2>
         <div class="descrip">'.$settings['description1'].'</div>
       </div>
       <div class="col-md-6">
@@ -106,16 +106,15 @@ function seed_calc_form_elementor_widget(){
             <label for="porc">5. Porcentaje de emergencia</label>
             <input type="number" id="porc" name="porc" value="">
           </div>
-          <div class="col-md-4">
-            <button id="seed-calc-btn" class="btn btn-primary">Calcular</button>
-          </div>
-
         </div>
       </div>
     </div>
+    <div class="col-md-4">
+            <button id="seed-calc-btn" class="btn btn-primary">Calcular</button>
+    </div>
   </div>
   <div id="seed-calc-result" class="hide">
-    <div class="row">
+    <div class="rows">
       <div class="col-md-6">
         <h2 class="descrip-tittle">' . $settings['title2'] . '</h2>
         <div class="descrip">'.$settings['description2'].'</div>
@@ -145,10 +144,9 @@ function seed_calc_form_elementor_widget(){
             <label for="sxh">5. Peso total de semillas del área (ha) (Kg)</label>
             <input type="text" id="sxh" name="sxh" value="" readonly="readonly">
           </div>
-          <div class="col-md-4">
+        </div>
+        <div class="col-md-4">
             <button id="return-btn" class="btn btn-primary">Volver</button>
-          </div>
-
         </div>
       </div>
     </div>
