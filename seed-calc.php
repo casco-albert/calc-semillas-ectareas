@@ -1,11 +1,9 @@
 <?php 
 /*
-Plugin Name: Balmasch Seed Calculator
-Plugin URI: https://balmasch.com/
+Plugin Name: Calculador Semillas/Hectárea
 Description: Calcula la cantidad de semillas necesarias para sembrar un terreno
 Version: 1.0
-Author: Alberto
-Author URI: http://rhodian.net/
+Author: Alberto Casco
 */
 //plugin code goes here
 
